@@ -1,0 +1,38 @@
+.footerContent{
+  background-color: #242424;
+  color:rgb(255, 255, 255);
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.content{
+  width: 25%;
+  height: 80%;
+}
+
+.h2{
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  text-transform: uppercase;;
+  font-weight: 200;
+}
+
+.logo{
+  width: 25%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .footerContent{
+    display: block;
+    height: 100%;
+    text-align: center;
+
+  }
+  .content{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
