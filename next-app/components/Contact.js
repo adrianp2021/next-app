@@ -21,12 +21,13 @@ const Contact = () => {
   return (
     <section className={contactStyles.contact}>
       <div className={contactStyles.box}>
+        
         <div className={contactStyles.top}>
           <h2 className={contactStyles.h2}>Reach out to us</h2>
           <h4 className={contactStyles.h4}>We are open to any ideas</h4>
         </div>
-        <form className={contactStyles.form}>
 
+        <form className={contactStyles.form}>
           <div>
             <input type="text" name="name" placeholder="Name" id={contactStyles.input} value={formValue.name} minLength="50" onChange={handleFormChange} ></input>
           </div>
