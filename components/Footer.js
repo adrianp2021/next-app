@@ -7,9 +7,9 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <section className={footerStyles.footerContent}>
-      <div className={footerStyles.content}>
+      {/* <div className={footerStyles.content}>
         <Image src="/lotr.png" alt="next-logo" width={150} height={150} />
-      </div>
+      </div> */}
       <div className={footerStyles.content}>
         <h2 className={footerStyles.h2}>Menu</h2>
         <p>Home</p>
