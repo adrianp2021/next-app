@@ -7,6 +7,8 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
 import Portfolio from '../components/Portfolio'
+import Quote from '../components/Quotes'
+
 
 
 export default function Home() {
@@ -32,7 +34,9 @@ export default function Home() {
         }
       `}
         </style>
+        
         <main className={styles.main}>
+          <Quote />
           <Portfolio />
           <Contact />
         </main>
