@@ -51,11 +51,11 @@ const Portfolio = () => {
                 filter: [
                   'hue-rotate(0) contrast(100%)',
                   // 'hue-rotate(360deg) contrast(200%)',
-                  'hue-rotate(45deg) contrast(250%)',
-                  'hue-rotate(-20deg) contrast(100%)'
+                  'hue-rotate(45deg) contrast(220%)',
+                  'hue-rotate(20deg) contrast(100%)'
                 ],
                 transition: {
-                  duration: .5
+                  duration: .2
                 }
               }}>
                 <img src={image.link} className={portfolioStyles.image} />
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 ],
                 boxShadow: "0 1px 2px rgba(0,0,0,0.07)", 
                 transition: {
-                  duration: .5
+                  duration: .2
                 }
               }}>
                 <img src={item.link1} className={portfolioStyles.image} />

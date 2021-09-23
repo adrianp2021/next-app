@@ -12,7 +12,7 @@ const Nav = () => {
         scale: 1,
         opacity: 1,
         transition: {
-          duration: .5
+          duration: .9
         }
       }
     }}>
