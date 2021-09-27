@@ -32,18 +32,17 @@
 }
 .h2{
   font-family: 'Monteserrat';
-  // text-transform:uppercase;
   font-size: 2.5rem;
 }
 .button{
   width: 100px;
-  padding: 20px;
+  height: 45px;
   border: 1px solid black;
   background-color: white;
   font-family: 'Monteserrat';
   font-size: 15px;
   cursor: pointer;
-  transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease;
 }
 .button:hover{
   background-color: rgb(197, 194, 194);
@@ -55,8 +54,6 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .contact{
     display: flex;
-    // flex-direction: row;
-    // height: 100%;
   }
   #input{
     width: 300px;
