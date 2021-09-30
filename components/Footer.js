@@ -1,15 +1,11 @@
 import React from 'react';
 import footerStyles from '../styles/Footer.module.scss'
 import Image from 'next/image'
-// import logoStyle from '../styles/Logo.module.scss'
 
 
 const Footer = () => {
   return (
     <section className={footerStyles.footerContent}>
-      {/* <div className={footerStyles.content}>
-        <Image src="/lotr.png" alt="next-logo" width={150} height={150} />
-      </div> */}
       <div className={footerStyles.content}>
         <h2 className={footerStyles.h2}>Menu</h2>
         <p>Home</p>

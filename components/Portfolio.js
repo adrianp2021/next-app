@@ -48,12 +48,6 @@ const Portfolio = () => {
                 zIndex: 1,
                 background: 'white',
                 scale: [1, 1.03],
-                // filter: [
-                //   'hue-rotate(0) contrast(100%)',
-                //   // 'hue-rotate(360deg) contrast(200%)',
-                //   'hue-rotate(45deg) contrast(220%)',
-                //   'hue-rotate(20deg) contrast(100%)'
-                // ],
                 transition: {
                   duration: .1
                 }
@@ -73,12 +67,6 @@ const Portfolio = () => {
                 zIndex: 1,
                 background: 'white',
                 scale: [1, 1.03],
-                // filter: [
-                //   'hue-rotate(0) contrast(100%)',
-                //   // 'hue-rotate(360deg) contrast(200%)',
-                //   'hue-rotate(45deg) contrast(250%)',
-                //   'hue-rotate(-20deg) contrast(100%)'
-                // ],
                 boxShadow: "0 1px 2px rgba(0,0,0,0.07)", 
                 transition: {
                   duration: .1
